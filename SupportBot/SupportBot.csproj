@@ -95,6 +95,7 @@
     <Compile Include="Instances\MessageInstance.cs" />
     <Compile Include="Modules\Commands.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="SecretClass.cs" />
     <Compile Include="Timers\ActiveCasesTimer.cs" />
     <Compile Include="Utils\ArchiveSupport.cs" />
     <Compile Include="Utils\BotUtils.cs" />

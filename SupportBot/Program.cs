@@ -59,7 +59,7 @@ namespace SupportBot
             BotUtils.RegisterReactionAdded();
             ActiveCasesTimer.Start();
             await BotUtils.RegisterCommandsAsync();
-            await ProgramVariables._client.LoginAsync(TokenType.Bot, "ODUyMjU0OTAwNDY1MDQxNDI4.YMEKOg.aOQ1TwTzfzVdt4TWKoWubKeIIc8");
+            await SecretClass.Login();
             await ProgramVariables._client.StartAsync();
             await Task.Delay(-1);
 
